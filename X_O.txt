@@ -1,0 +1,21 @@
+About X_O game
+the author:إYoussef Abdo Fathy 
+ID:20220400
+
+Overview about the game:
+
+it's simple X and O game using C++ and here the player enter his name first and start playing VS ai computer that made with C++
+
+Explanation of the code:
+
+.The game initializes with empty 3x3 board represented by numbers 1 to 9.
+
+.The player should select his name before starting the game.
+
+.drawBoard() function use to update the board after every move.
+
+.The code checks for winning conditions by examining rows, columns, and diagonals.
+
+.the draw is declared if the board is full and no player has won.
+
+. in the end the code provides informative messages such as "Wrong move Try again" when he do a wrong move and displays the winner or declares a draw.
