@@ -1,0 +1,40 @@
+Code Overview:
+
+1-FourInARowBoard Class:
+
+.Represents the game board for Four in a Row.
+
+.Initializes a 6x7 grid with spaces (' ') indicating empty slots.
+
+.Provides a method to display the current state of the board (display()).
+
+.Allows players to make moves and checks if a column is full (makeMove()).
+
+.Includes a placeholder for the game over logic (isGameOver()).
+
+2-FourInARowPlayer Class:
+
+.Represents a player in the game.
+Stores the player's name and symbol ('X' or 'O').
+
+.Provides methods to retrieve the player's name, symbol, and make a move (makeMove()).
+
+3-FourInARowGame Class:
+
+.Orchestrates the overall game.
+Initializes a game board and two players.
+
+.Alternates turns between players, allowing them to make moves.
+
+.Checks for game over conditions and displays the result (run()).
+
+.Switches the current player after each move (switchPlayer()).
+
+.Displays the game result based on the game state (displayGameResult()).
+
+4-main Function:
+
+.Creates an instance of FourInARowGame with two player names ("Player 1" and "Player 2").
+
+.Calls the run() method to start and run the game.
+
