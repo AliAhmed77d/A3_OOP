@@ -1,0 +1,28 @@
+A 5 x 5 tic tac toe board class :- 
+
+x_points , y_points : 
+two variables to observe every mark point , and use them in the end to determine who's the winner.
+
+The constructor :- 
+generate a 5x5 char array .
+
+Update board :-
+It returns whether the x,y is available in the board , if so it checks the played position total points and adds them to the mark variables.
+
+display board :-
+It shows a board with coordinates and mark’s points to make it easier to play.
+
+is cell in board :- 
+it checks if the x,y within the 5x5 limits.
+
+get move points :-
+This function takes x,y and mark parameters and uses the position to check if there are two connected marks of the same type vertically , horizontally and diagonally and returns the sum of them .
+
+game is over : - 
+it checks whether the game is over or not; this occurs only if 24 moves played.
+
+is winner :- 
+it checks some conditions , if the game is over and this occurs only if 24 moves played , the mark’s points and if they are not equal , if the conditions met it declares the winner mark and returns true otherwise false. 
+
+is draw  :- 
+it returns true only if the game is over and there is no winner.
