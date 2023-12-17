@@ -1,0 +1,21 @@
+﻿X-O Game Report
+The C++ code implements the traditional X-O (Tic-Tac-Toe) game. One player can compete with the computer in this game.
+1. Board Representation: - A 2D array is used to represent the game board as a 3x3 grid.
+   - Initially, the numbers 1 through 9 are written on each cell in the grid.
+   - Each turn begins with the board being visible.
+
+2. Player Interaction: - At the start of the game, the player inputs their name.
+   - Movement is done in turns by the computer and the player.
+   - The player enters a number between 1 and 9 to choose a move.
+   - The computer produces a random, legitimate move.
+
+3. Move Validation: - The program makes sure a move is legitimate.
+4. Game Logic: - After every move, the game determines whether it has won or lost.
+   - Three consecutive wins in a row, either horizontally, vertically, or diagonally, are required.
+   - The game concludes in a draw if the board is full, and a winner is not announced.
+
+5. Player Switching:  - The player and the computer take turns switching roles in this game.
+   - 'X' stands for the player, and 'O' for the computer.
+Result:
+A simple version of the X-O game can be successfully implemented with the provided code, enabling a player to compete against a computer opponent. Move is one of the game's key elements.
+player switching, win checking, and confirmation. It is possible to make improvements to make the gameplay experience even more captivating.
